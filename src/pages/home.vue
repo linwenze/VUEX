@@ -1,4 +1,4 @@
 //about.vue
 <template>
-    <div>home</div>
+    <div class="test">home</div>
 </template>

@@ -16,7 +16,14 @@ module.exports = {
           'vue-style-loader',
           'css-loader'
         ],
-      },      {
+      },     
+      {
+                test: /base.css$|index.css$/,
+                use: [
+                    'postcss-loader'
+                ],
+      },
+       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
