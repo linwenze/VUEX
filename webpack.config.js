@@ -23,6 +23,14 @@ module.exports = {
                     'postcss-loader'
                 ],
       },
+      // use: [
+      //   { loader: 'postcss-loader', options: {
+      //     ident: 'postcss',
+      //     plugins: () => [
+      //       postcssCustomProperties(/* pluginOptions */)
+      //     ]
+      //   } }
+      // ],
        {
         test: /\.vue$/,
         loader: 'vue-loader',

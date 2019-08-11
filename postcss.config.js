@@ -5,6 +5,9 @@ module.exports = {
     require('postcss-pxtorem')({
       rootValue: 200,
       propWhiteList: [],
-    })
-  ],
-};
+    }),
+    require('postcss-custom-properties'),
+    require('precss'),
+    require('postcss-sprites'),
+  ]
+}; 

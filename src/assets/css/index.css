@@ -1,4 +1,60 @@
 
+$blue: #056ef0;
+$column: 200px;
+:root {
+    --color: red;
+  }
+  .div{width:375px;height:540px;}
+  .test{
+    --color: blue;
+    width:30px;height:30px;
+    background:url(../img/gift.png);
+    background-size:100% 100%;
+
+
+
+  }
+  .width200{width:200px;height:200px;background: yellow;
+    margin:100px;
+
+}
+  .show{
+      width:109px;
+      background:url(../img/king1.png);
+      background-size:100% 100%;
+      height:56px;
+  }
+  .test .text {
+    /* --color: green; */
+    color: var(--color);
+  }
+
+
+
+
+.menu {
+  width: calc(2 * $column);
+  background:red;
+  height: calc(2 * $column);
+}
+
+.menu_link {
+  background: $blue;
+  width: $column;
+}
+
+
+
+
+
+
+
+  
+  .component .text {
+    --text-color: green;
+    color: var(--text-color);
+  }
+
 
 body {
     font-size: 20px;

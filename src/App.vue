@@ -1,13 +1,13 @@
 <template>
     <div id="app">
        
-        <h2>{{msg}}</h2>
-        <div class="nav-box">
+        <!-- <h2>{{msg}}</h2> -->
+        <!-- <div class="nav-box">
             <p class="nav-list">
                 <router-link class="nav-item" to="/">首页1</router-link>
                 <router-link class="nav-item" to="/about">关于</router-link>
             </p>
-        </div>
+        </div> -->
         <div>
             <router-view></router-view>
         </div>
